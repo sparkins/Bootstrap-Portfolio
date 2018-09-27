@@ -1,0 +1,39 @@
+ .navbar {
+    overflow: hidden;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #dddddd;
+    width: auto;
+    padding-left: 15%;
+    padding-right: 15%;
+ }
+
+.navbar .navbar-brand {
+    float: left;
+    background-color: #4aaaa5;
+    color: white;
+    font-weight: bold;
+    border-bottom-color: #4aaaa5;
+    border-top-color: #4aaaa5;
+    text-align: center;
+    font-size: 32px;
+}
+
+.navbar .navbar-item {
+    float: right;
+    color: #cccccc;
+    text-align: center;
+    padding: 15px 15px;
+    font-size: 17px;
+ }
+  
+.navbar .nav-item .active {
+    background-color: #4aaaa5;
+    color: white;
+ }
+
+.navbar .nav-item .active:hover {
+    background-color: #4aaaa5;
+    color: black;
+ }
