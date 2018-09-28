@@ -6,7 +6,7 @@ body {
  }
 
 /* Generic Container Styling */
-.contentContainer {
+.container {
     border-style: solid;
     border-color: #dddddd;
     border-width: 2px;
@@ -17,7 +17,7 @@ body {
     margin-top: 10px;
 }
 
-.contentContainer a.aboutMe {
+.container #aboutMe {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 32px;
     font-weight: bold; 
@@ -27,7 +27,7 @@ body {
 }
 
 /* Styling for About Me page */
-.contentContainer .floatImage {
+.container .floatImage {
     float:left;
     padding-left: 15px;
     padding-right: 15px;
@@ -36,77 +36,96 @@ body {
     height: 125px;
 }
 
-.contentContainer .myBlurb {
+.container .myBlurb {
     padding-left: 15px;
     padding-right: 15px;
 } 
 
 /* Styling for the Portfolio Page */
-.contentContainer .portfolioContainer {
+.container .portfolioContainer {
     clear: both;
     overflow: auto;
 }
 
-.contentContainer .portfolioImage {
+.container #portfolioHeader {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 32px;
+    font-weight: bold; 
+    color: #4aaaa5;
+    width: 960px;
+    padding-left: 15px;
+}
+
+.container .portfolioImage {
     float: left;
     padding: 10px;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 /* Styling for the Contacts Page */
-.contentContainer #name {
+.container #contactHeader {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 32px;
+    font-weight: bold; 
+    color: #4aaaa5;
+    width: 960px;
+    padding-left: 15px;
+}
+
+.container .contactPage .name {
+    font-weight: bold;
+}
+
+.container .contactPage #name {
     border-style: solid;
     border-color: #ede6e6;
     border-width: 0.5px;
-    margin-top: 5px;
-    margin-left:10px; 
-    width: 60%; 
-    height:20px;
+    width: 100%; 
+    height:40px;
 }
 
-.contentContainer #email {
+.container .contactPage #email {
     border-style: solid;
     border-color: #ede6e6;
     border-width: 0.5px;
-    margin-top: 5px;
-    margin-left:10px; 
-    width: 60%; 
-    height: 20px;
+    width: 100%; 
+    height: 40px;
 }
 
-.contentContainer #message {
+.container .contactPage #message {
     border-style: solid;
     border-color: #ede6e6;
     border-width: 0.5px;
-    margin-top: 5px;
-    margin-left:10px; 
-    width:60%; 
-    height:100px;
+    width: 100%; 
 }
 
-.contentContainer #submit {
+.container .contactPage #submit {
     background-color:  #4aaaa5; 
     color: white; 
     margin: 10px; 
+    padding-bottom: 10px;
     font-size: 25px;
 }
 
-.contentContainer #submit:hover {
+.container .contactPage #submit:hover {
     color: black;
 }
 
 /* Footer Styling */
-.footer{
+.footer .footerContainer{
     position: fixed;
-    background-color: #666666;
+    background-color: #9b9898;
     border-top-style: solid;
     border-top-color: #4aaaa5;
     border-top-width: 5px;
-    color: #b6aeae;
+    color: white; 
+    font-weight: bold;
     text-align: center;
-    bottom: 10px;
-    width: 100%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    bottom: 0.5%;
+    width: 99%;
     height: 5%;
 }
 
