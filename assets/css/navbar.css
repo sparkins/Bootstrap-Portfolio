@@ -1,24 +1,25 @@
  .navbar {
-    overflow: hidden;
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    background-color: #ffffff;
-    border-style: solid;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e3f2fd;
+    border: 2px solid darkgray;
     border-color: #dddddd;
     width: auto;
     padding-left: 15%;
     padding-right: 15%;
+    overflow: hidden;
  }
 
 .navbar .navbar-brand {
     float: left;
     background-color: #4aaaa5;
-    color: white;
+    color: darkslategray;
     font-weight: bold;
     border-bottom-color: #4aaaa5;
     border-top-color: #4aaaa5;
     text-align: center;
     font-size: 32px;
     padding: 10px;
+    /* padding-top: 15px; */
 }
 
 .navbar .nav-item {

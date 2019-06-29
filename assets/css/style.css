@@ -1,8 +1,9 @@
 
 body {
-    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #777777;
-    background-image: url("../images/halftone.png");
+    /* background-image: url("../images/halftone.png"); */
+    background-color: #f5f3f3;
  }
 
 /* Generic Container Styling */
@@ -11,9 +12,9 @@ body {
     border-color: #dddddd;
     border-width: 2px;
     background-color: #ffffff;
-    width: 960px;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 70%;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
     margin-top: 10px;
 }
 
@@ -22,7 +23,7 @@ body {
     font-size: 32px;
     font-weight: bold; 
     color: #4aaaa5;
-    width: 960px;
+    /* width: 960px; */
     padding-left: 15px;
 }
 
@@ -52,7 +53,7 @@ body {
     font-size: 32px;
     font-weight: bold; 
     color: #4aaaa5;
-    width: 960px;
+    /* width: 960px; */
     padding-left: 15px;
 }
 
@@ -69,7 +70,7 @@ body {
     font-size: 32px;
     font-weight: bold; 
     color: #4aaaa5;
-    width: 960px;
+    /* width: 960px; */
     padding-left: 15px;
 }
 
